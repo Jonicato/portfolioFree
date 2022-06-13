@@ -25,3 +25,30 @@ body {
     font-size: 2rem;
     color: var(--verdeprimario);
 }
+
+.nav-bg {
+    background-color: var(--verdeoscuro);
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.main-navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-navigation a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 4rem;
+}
+
+.main-navigation a:hover {
+    background-color: var(--verdeprimario);
+    color: var(--oscuro);
+}
