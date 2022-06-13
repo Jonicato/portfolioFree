@@ -1,0 +1,27 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --verdeprimario: #91C788;
+    --verdeoscuro: #52734D;
+    --verdeclaro: #DDFFBC;
+    --claro: #FEFFDE;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: var(--verdeoscuro);
+}
+
+.title span {
+    font-size: 2rem;
+    color: var(--verdeprimario);
+}
