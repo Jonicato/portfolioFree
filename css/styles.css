@@ -31,16 +31,26 @@ body {
 }
 
 .container {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
 .main-navigation{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .main-navigation {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 .main-navigation a{
+    display: block;
+    text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 1.5rem;
@@ -51,4 +61,12 @@ body {
 .main-navigation a:hover {
     background-color: var(--verdeprimario);
     color: var(--oscuro);
+}
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
 }
